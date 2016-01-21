@@ -32,6 +32,7 @@ module SitePrism
       end
 
       when_loaded(&block) if block_given?
+      self
     end
 
     def displayed?(*args)
